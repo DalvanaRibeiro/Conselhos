@@ -1,0 +1,34 @@
+/* Estiliza o container principal da aplicação */
+.App {
+  font-family: sans-serif;       /* Define a fonte do texto (sem serifa) para algo mais moderno e limpo */
+  text-align: center;            /* Centraliza o conteúdo horizontalmente */
+  padding-top: 50px;             /* Adiciona um espaço de 50 pixels no topo (distância do topo da tela) */
+  background: #f0f4f8;           /* Define a cor de fundo da tela com um tom claro de azul acinzentado */
+  min-height: 100vh;             /* Garante que o container tenha pelo menos 100% da altura da tela */
+}
+
+/* Estiliza o "cartão" onde o conselho é exibido */
+.card {
+  background: white;             /* Fundo branco para destacar o conteúdo */
+  max-width: 500px;              /* Largura máxima de 500px, para não ficar muito largo em telas grandes */
+  margin: auto;                  /* Centraliza horizontalmente */
+  padding: 30px;                 /* Espaço interno de 30px ao redor do conteúdo */
+  border-radius: 8px;            /* Arredonda os cantos do cartão */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);  /* Adiciona uma sombra suave para dar profundidade */
+}
+
+/* Estiliza o botão */
+button {
+  margin-top: 20px;              /* Adiciona espaço acima do botão */
+  padding: 10px 20px;            /* Espaçamento interno: 10px vertical e 20px horizontal */
+  background-color: #00aaff;     /* Cor de fundo azul vibrante */
+  color: white;                  /* Cor do texto do botão (branco) */
+  border: none;                  /* Remove a borda padrão do botão */
+  border-radius: 4px;            /* Arredonda um pouco os cantos do botão */
+  cursor: pointer;               /* Muda o cursor para uma mãozinha quando o mouse passa por cima */
+}
+
+/* Estilo do botão quando o usuário passa o mouse por cima */
+button:hover {
+  background-color: #008fcc;     /* Muda o tom do azul para um mais escuro ao passar o mouse */
+}
